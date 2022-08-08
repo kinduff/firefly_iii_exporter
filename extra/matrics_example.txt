@@ -1,0 +1,34 @@
+# HELP firefly_iii_account_balance_metrics Total balance of account
+# TYPE firefly_iii_account_balance_metrics gauge
+firefly_iii_account_balance_metrics{account_id="1",account_name="BBVA",base_url="http://firefly.local"} 150.69
+firefly_iii_account_balance_metrics{account_id="2",account_name="BBVA savings account",base_url="http://firefly.local"} 10.67
+firefly_iii_account_balance_metrics{account_id="3",account_name="Cash wallet",base_url="http://firefly.local"} 17.34
+
+# HELP firefly_iii_account_transactions_metrics Total number of transactions
+# TYPE firefly_iii_account_transactions_metrics gauge
+firefly_iii_account_transactions_metrics{account_id="1",account_name="BBVA",base_url="http://firefly.local"} 79
+firefly_iii_account_transactions_metrics{account_id="2",account_name="BBVA savings account",base_url="http://firefly.local"} 10
+firefly_iii_account_transactions_metrics{account_id="3",account_name="Cash wallet",base_url="http://firefly.local"} 0
+
+# HELP firefly_iii_accounts_metrics Total number of accounts
+# TYPE firefly_iii_accounts_metrics gauge
+firefly_iii_accounts_metrics{base_url="http://firefly.local"} 3
+
+# HELP firefly_iii_transaction_by_category_metrics Total number of transactions by category
+# TYPE firefly_iii_transaction_by_category_metrics gauge
+firefly_iii_transaction_by_category_metrics{base_url="http://firefly.local",category_id="1",category_name="renta"} 0
+firefly_iii_transaction_by_category_metrics{base_url="http://firefly.local",category_id="2",category_name="asd"} 0
+
+# HELP firefly_iii_transactions_metrics Total number of transactions
+# TYPE firefly_iii_transactions_metrics gauge
+firefly_iii_transactions_metrics{base_url="http://firefly.local"} 89
+
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 0
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0

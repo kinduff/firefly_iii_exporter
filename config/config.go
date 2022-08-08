@@ -25,7 +25,7 @@ type Config struct {
 
 func getDefaultConfig() *Config {
 	return &Config{
-		HTTPPort:       "4001",
+		HTTPPort:       "4002",
 		ScrapeInterval: 30 * time.Second,
 	}
 }
