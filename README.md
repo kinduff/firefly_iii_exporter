@@ -51,7 +51,7 @@ The exporter is also available as a Docker image in [DockerHub][dockerhub] and [
 ```shell
 $ docker run \
   --name firefly_iii_exporter \
-  -p 7355:7355 \
+  -p 4002:4002 \
   -e BASE_URL=<url-to-firefly-iii> \
   -e API_KEY=<personal-access-token> \
   kinduff/firefly_iii_exporter:latest
@@ -80,7 +80,6 @@ Then, build the binary:
 ```shell
 $ go build -o firefly_iii_exporter .
 ```
-
 
 ## Configuration
 
