@@ -10,7 +10,7 @@
 
 This is a Prometheus exporter for [Firefly III](https://www.firefly-iii.org). It provides statistics from accounts, transactions, and categories.
 
-An example of the output of this exporter can be found [here][extra/metrics_example.txt].
+An example of the output of this exporter can be found [here](extra/metrics_example.txt).
 
 ## Feature list
 
