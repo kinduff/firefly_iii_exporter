@@ -1,0 +1,16 @@
+.github
+.git
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+Dockerfile
+README.md
+LICENSE
+Dockerfile
+.dockerignore
+extra/
+vendor/
